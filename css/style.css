@@ -1,0 +1,70 @@
+* {
+     
+    border: 0px solid black;
+}
+ 
+.clear {
+    clear: both;
+}
+ 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body {
+    min-width: 760px;
+    min-height: 600px;
+}
+ 
+header {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 1px 5px 10px 5px;
+    color: white;
+}
+ 
+header #headerToolbar {
+    text-align: right;
+}
+ 
+header #headerName {
+    text-align: center;
+}
+ 
+main {
+    min-height: 400px;
+    min-width: 760px;
+}
+ 
+#frontPage {
+    float: left;
+    background-color: lightgrey;
+    min-width: 760px;
+    height: 460px;
+    overflow: scroll;
+    width: 100%;
+}
+ 
+#itemPage {
+    display: none;
+    float: left;
+    background-color: lightblue;
+    min-width: 760px;
+    height: 460px;
+    overflow: scroll;
+    width: 100%;
+}
+ 
+.item {
+    width: calc(100% - 20px);
+    padding: 5px 10px 5px 10px;
+    height: 75px;
+}
+ 
+ 
+footer {
+    background-color: lightsteelblue;
+    font-size: 0.7em;
+} 
